@@ -13,6 +13,19 @@
   "license": "MIT",
   "commands": [
     {
+      "name": "copyFromClipboard",
+      "title": "Copy text from clipboard",
+      "description": "Copies the text from clipboard",
+      "mode": "no-view",
+      "preferences": [{
+        "name": "typercommand1",
+        "title": "Text 1",
+        "description": "Text that will be typed into your screen",
+        "required": false,
+        "type": "textfield"
+      }]
+    },
+    {
       "name": "command1",
       "title": "Text 1",
       "description": "Value of text 1",
